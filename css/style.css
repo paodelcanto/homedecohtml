@@ -43,6 +43,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -93,17 +94,19 @@ ul {
 .articulo__title {
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
 }
 
 .articulo__price {
     font-size: 1, 5rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
 }
 
 .articulo__button {
     border: none;
-    background-color: #000;
+    background-color: olivedrab;
     color: #fff;
     padding: 1rem 2rem;
     font-weight: bold;
@@ -170,12 +173,22 @@ hr {
     flex-wrap: wrap;
 }
 
-.aside p {
-    border: none;
+aside {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-radius: 100%;
+    justify-content: center;
+}
+
+.aside p {
+    border: none;
+    color: #000;
+    background-color: olivedrab;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 legend {
