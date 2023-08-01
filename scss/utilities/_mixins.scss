@@ -1,0 +1,13 @@
+
+.boton-1 {
+    font-size: 2rem;
+    padding: 1 2 rem;
+    color: coral;
+}
+
+.boton-2 { 
+    @extend .boton-1
+} 
+
+
+
